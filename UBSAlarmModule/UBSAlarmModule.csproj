@@ -59,7 +59,7 @@
     <Compile Include="Vista\AlarmForm.Designer.cs">
       <DependentUpon>AlarmForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modulo\Program.cs" />
+    <Compile Include="Modulo\AlarmModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

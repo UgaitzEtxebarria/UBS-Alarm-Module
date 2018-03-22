@@ -8,7 +8,7 @@ namespace UBSAlarmModule.Clases
     {
         private UBSLib.UBSModule ubsMod;
         private string strAlarmDescFilename = "Alarmas/alarmas.xml";    //Archivo donde se leen las alarmas y sus descripciones
-        private string m_communication = "message";                     //Tipo de comunicacion utilizada en el CSR
+        private string m_communication = "message";                     //Tipo de comunicacion utilizada en el UBS
         private Dictionary<string, AlarmBlock> m_alarmBlocks;           //La lista de los "Bloques de Alarmas" (1 Bloque = 31 Alarmas) definidos por un texto, por si hay variables que compartir
 
         public event EventHandler CambioDeAlarma;
